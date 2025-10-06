@@ -1,0 +1,633 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.desktop .hero-section {
+  display: flex;
+  flex-direction: column;
+  width: 1441px;
+  align-items: flex-start;
+  margin-right: -1.00px;
+  height: 909px;
+  position: relative;
+}
+
+.desktop .div {
+  align-self: stretch;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(
+    261deg,
+    rgba(255, 231, 235, 1) 0%,
+    rgba(255, 191, 202, 1) 100%
+  );
+  height: 909px;
+  position: relative;
+}
+
+.desktop .group {
+  position: absolute;
+  top: 190px;
+  left: 766px;
+  width: 634px;
+  height: 727px;
+}
+
+.desktop .group-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 634px;
+  height: 727px;
+}
+
+.desktop .ellipse {
+  top: 93px;
+  left: 1px;
+  width: 634px;
+  height: 634px;
+  border-radius: 316.94px;
+  background: radial-gradient(
+    50% 50% at 55% 50%,
+    rgba(255, 228, 233, 1) 0%,
+    rgba(255, 203, 212, 1) 100%
+  );
+  position: absolute;
+  aspect-ratio: 1;
+}
+
+.desktop .ellipse-2 {
+  top: 172px;
+  left: 79px;
+  width: 476px;
+  height: 476px;
+  border-radius: 238.22px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(254, 205, 213, 1) 0%,
+    rgba(255, 226, 231, 1) 100%
+  );
+  position: absolute;
+  aspect-ratio: 1;
+}
+
+.desktop .portrait-happy-young {
+  position: absolute;
+  top: 0;
+  left: 45px;
+  width: 506px;
+  height: 719px;
+  aspect-ratio: 0.7;
+}
+
+.desktop .frame {
+  display: flex;
+  width: 271px;
+  height: 133px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  position: absolute;
+  top: 544px;
+  left: 363px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.desktop .mask-group {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-top: -3.29px;
+  margin-bottom: -3.29px;
+  margin-left: -6.67px;
+}
+
+.desktop .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 124px;
+  align-items: flex-start;
+  position: relative;
+  margin-top: -1.29px;
+  margin-bottom: -1.29px;
+  margin-right: -6.67px;
+}
+
+.desktop .text-wrapper {
+  align-self: stretch;
+  font-family: "Figtree-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 30px;
+  position: relative;
+  margin-top: -1.00px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .online-resume {
+  position: relative;
+  align-self: stretch;
+  font-family: "Figtree-Medium", Helvetica;
+  font-weight: 500;
+  color: #666666;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .frame-3 {
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+  align-items: flex-start;
+  gap: 38px;
+  position: absolute;
+  top: 228px;
+  left: 100px;
+}
+
+.desktop .your-resume-deserves {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Figtree-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--colorpalletneutralneutral-500);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+
+.desktop .span {
+  color: #000000;
+  line-height: 78px;
+}
+
+.desktop .text-wrapper-2 {
+  color: #fa1239;
+  line-height: 85px;
+}
+
+.desktop .text-wrapper-3 {
+  color: #000000;
+  line-height: 85px;
+}
+
+.desktop .if-your-resume-isn-t {
+  position: relative;
+  width: 485px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--colorpalletneutralneutral-500);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 34px;
+}
+
+.desktop .frame-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .buttons {
+  display: inline-flex;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 22px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: 1px solid;
+  border-color: var(--colorpalletprimaryprimary-500);
+  box-shadow: var(--button-shadow);
+}
+
+.desktop .contact {
+  position: relative;
+  width: fit-content;
+  margin-top: -3.00px;
+  margin-bottom: -1.00px;
+  font-family: "Figtree-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--colorpalletprimaryprimary-500);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .contact-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 22px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--colorpalletprimaryprimary-500);
+  border-radius: 30px;
+  box-shadow: var(--button-shadow);
+}
+
+.desktop .contact-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -3.00px;
+  margin-bottom: -1.00px;
+  font-family: "Figtree-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .group-3 {
+  position: absolute;
+  top: 153px;
+  left: 0;
+  width: 363px;
+  height: 17px;
+}
+
+.desktop .vector {
+  position: absolute;
+  top: -1px;
+  left: 48px;
+  width: 269px;
+  height: 9px;
+}
+
+.desktop .img {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 363px;
+  height: 12px;
+}
+
+.desktop .frame-5 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 15px;
+  position: absolute;
+  top: 585px;
+  left: 729px;
+  background-color: #ffffffc9;
+  border-radius: 10px;
+  backdrop-filter: blur(45.5px) brightness(100%);
+  -webkit-backdrop-filter: blur(45.5px) brightness(100%);
+}
+
+.desktop .text-wrapper-4 {
+  width: fit-content;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1cb098;
+  font-size: 64px;
+  position: relative;
+  margin-top: -1.00px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .frame-6 {
+  display: flex;
+  flex-direction: column;
+  width: 199px;
+  align-items: flex-start;
+  gap: 11px;
+  position: relative;
+}
+
+.desktop .frame-7 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .vector-2 {
+  position: relative;
+  width: 17.12px;
+  height: 16.35px;
+}
+
+.desktop .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Figtree-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.desktop .frame-8 {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.desktop .group-4 {
+  position: relative;
+  width: 231.17px;
+  height: 58px;
+  aspect-ratio: 3.99;
+}
+
+.desktop .frame-9 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .div-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--typography-18-medium-font-family);
+  font-weight: var(--typography-18-medium-font-weight);
+  color: #282828;
+  font-size: var(--typography-18-medium-font-size);
+  letter-spacing: var(--typography-18-medium-letter-spacing);
+  line-height: var(--typography-18-medium-line-height);
+  font-style: var(--typography-18-medium-font-style);
+}
+
+.desktop .buttons-2 {
+  display: inline-flex;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 22px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--colorpalletprimaryprimary-500);
+  border-radius: 30px;
+  box-shadow: var(--button-shadow);
+}
+
+.desktop .frame-10 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 774px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.desktop .group-5 {
+  position: absolute;
+  top: -74px;
+  left: -1px;
+  width: 1442px;
+  height: 862px;
+  background-color: #ffffffcc;
+}
+
+.desktop .frame-11 {
+  display: flex;
+  flex-direction: column;
+  width: 1255px;
+  align-items: flex-start;
+  gap: 50px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.desktop .frame-12 {
+  display: flex;
+  flex-direction: column;
+  width: 1240px;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .frame-13 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desktop .what-you-get-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #fd92a44c;
+  border-radius: 6px;
+}
+
+.desktop .what-you-get {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Figtree-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .you-re-not-just {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Figtree-SemiBold", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 55px;
+}
+
+.desktop .text-wrapper-7 {
+  color: #000000;
+}
+
+.desktop .text-wrapper-8 {
+  color: #fa1239;
+}
+
+.desktop .frame-14 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desktop .frame-15 {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 16px #00000014;
+}
+
+.desktop .frame-16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desktop .CMS {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin-left: -20.62px;
+  margin-right: -20.62px;
+  aspect-ratio: 1.5;
+}
+
+.desktop .frame-17 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desktop .p {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Figtree-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--colorpalletneutralneutral-500);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.desktop .text-wrapper-9 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: #595959;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.desktop .frame-18 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desktop .text-wrapper-10 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  font-family: "Figtree-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--colorpalletneutralneutral-500);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
